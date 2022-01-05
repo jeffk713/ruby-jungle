@@ -5,7 +5,21 @@
   </header>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h2>Thank you for your order!</h2>
+
+    <% @order.line_items.each do |item| %>
+      <%= render 'ordered_item', item: item %>
+    <% end %>
+
+    <div>
+      <h2>Charged to: </h2>
+      <p><%= @order.email %></p>
+    </div>
+
+    <div>
+      <h2>Total amount: </h2>
+      <h2><%= humanized_money_with_symbol @order.total_cents.to_f * 1/100 %></h2>
+    </div>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>

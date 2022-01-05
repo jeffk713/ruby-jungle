@@ -1,0 +1,12 @@
+.order-summary > h2 {
+  margin-bottom: 1em;
+}
+
+.ordered-item-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+}
