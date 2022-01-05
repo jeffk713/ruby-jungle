@@ -1,0 +1,19 @@
+<div class="ordered-item-container">
+  <p><%= item.product.name %></p>
+  <p><%= image_tag item.product.image.tiny %></p>
+  <p>Quantity: 
+    <strong>
+      <%= item.quantity %>
+    </strong>
+  </p>
+  <p>Unit price: 
+    <strong>
+      <%= humanized_money_with_symbol item.product.price %>
+    </strong>
+  </p>
+  <p>Sub total: 
+    <strong>
+      <%= humanized_money_with_symbol item.total_price_cents.to_f * 1/100 %>
+    </strong>
+  </p>
+</div>
