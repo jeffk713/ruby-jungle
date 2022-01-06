@@ -2,12 +2,12 @@
 
 <div class="jumbotron">
   <div>
-    <p>Total product count: </p>
-    <h2><%= @product_count %></h2>
+    <p>Total product registered: </p>
+    <h2><%= pluralize(@product_count, 'product') %></h2>
   </div>
 
   <div>
-    <p>Total category count: </p>
-    <h2><%= @category_count %></h2>
+    <p>Total category registered: </p>
+    <h2><%= pluralize(@category_count, 'category') %></h2>
   </div>
 </div>
