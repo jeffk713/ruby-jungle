@@ -18,24 +18,28 @@
 
 ## Features implemented
 
-- Admin:
-  To add a product under an exisiting category
-  To add a category
-  To verify the admin user with basic authentication process
+### Admin:
 
-- Cart:
-  To display added product in cart with product information
-  To display total amount and email that is used to purchase
+- To add a product under an exisiting category
+- To add a category
+- To verify the admin user with basic authentication process
 
-- User:
-  To store user credentials with hashed password in database
-  To authenticate themselves
+### Cart:
 
-- Testing:
-  To unit-test creating prouct model in various scenarios
-  To feature-test that user visits and views products
-  To feature-test that user clicks to view a product detail
-  To feature-test that user clicks to add a product to cart
+- To display added product in cart with product information
+- To display total amount and email that is used to purchase
+
+### User:
+
+- To store user credentials with hashed password in database
+- To authenticate themselves
+
+### Testing:
+
+- To unit-test creating prouct model in various scenarios
+- To feature-test that user visits and views products
+- To feature-test that user clicks to view a product detail
+- To feature-test that user clicks to add a product to cart
 
 ## Sample images
 
