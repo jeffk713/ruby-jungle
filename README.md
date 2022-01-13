@@ -27,6 +27,10 @@
   To display added product in cart with product information
   To display total amount and email that is used to purchase
 
+- User:
+  To store user credentials with hashed password in database
+  To authenticate themselves
+
 - Testing:
   To unit-test creating prouct model in various scenarios
   To feature-test that user visits and views products
