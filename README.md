@@ -10,7 +10,7 @@
 
 ## General info
 
-- E-commerse app
+- E-commerce app
 
 ## The project goal
 
