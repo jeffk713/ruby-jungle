@@ -37,7 +37,7 @@
 
 Homepage
 ![sample1](https://github.com/jeffk713/ruby-jungle/blob/master/sample-images/image1.png?raw=true)
-Cart pag
+Cart page
 ![sample2](https://github.com/jeffk713/ruby-jungle/blob/master/sample-images/image2.png?raw=true)
 
 ## Tech stack
